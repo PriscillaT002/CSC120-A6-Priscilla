@@ -1,7 +1,11 @@
 /* This is a stub for the Library class */
-public class Library {
+import java.util.HashTable
 
-    public Library() {
+public class Library extends Building{
+  private HashTable<String, boolean> collection;
+
+    public Library(String name, String address, Int nFloors) {
+      Super 
       System.out.println("You have built a library: 📖");
     }
   
