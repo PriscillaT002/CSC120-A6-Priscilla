@@ -1,7 +1,15 @@
 /* This is a stub for the House class */
-public class House {
+import java.util.ArrayList;
 
-  public House() {
+
+public class House extends Building {
+  private ArrayList<String> residents;
+  private boolean hasDiningHall;
+
+  public House(String name, String address, int nFloors) {
+    super(name, address, nFloors);
+    this.residents = new ArrayList<String>();
+    this.hasDiningHall = true;
     System.out.println("You have built a house: 🏠");
   }
 
