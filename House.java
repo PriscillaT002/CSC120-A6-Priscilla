@@ -24,16 +24,27 @@ public class House extends Building {
   }
 
   public void moveIn(String name) {
-    this.residents ;
+    ArrayList<String> names = new ArrayList<String>();
+    residents.add(new name );
   }
 
 
   public String moveOut(String name){
+    ArrayList<String> names = new ArrayList<String>();
+    residents.remove(new name );
 
   }
 
   public boolean isResident(String person){
-    
+    if (residents == true) {
+      System.out.println("Yes, person is a resident");
+    }
+    else{
+      System.out.println("No, person is not a resident");
+    }
+    return residents;
+
+
   }
 
 
