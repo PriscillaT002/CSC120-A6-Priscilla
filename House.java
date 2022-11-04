@@ -13,6 +13,30 @@ public class House extends Building {
     System.out.println("You have built a house: 🏠");
   }
 
+  public boolean hasDiningHall(){
+    if (hasDiningHall == true) {
+      System.out.println("There is no dining hall in this house.");
+    }
+    else{
+      System.out.println("There is no dining hall in this house");
+    }
+    return hasDiningHall;
+  }
+
+  public void moveIn(String name) {
+    this.residents ;
+  }
+
+
+  public String moveOut(String name){
+
+  }
+
+  public boolean isResident(String person){
+    
+  }
+
+
   public static void main(String[] args) {
     new House();
   }
