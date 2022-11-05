@@ -39,8 +39,7 @@ public class House extends Building {
   }
 
 
-  public boolean isResident(String person)
-  {
+  public boolean isResident(String person){
 
       // Creating a Boolean array
       ArrayList<String> residents = new ArrayList<String>();
@@ -55,9 +54,9 @@ public class House extends Building {
           System.out.println("Yes, person is a resident");
       else
           System.out.println("No, person is not a resident");
-  }
-}
 
+        return false;
+  }
 
 
   public static void main(String[] args) {
