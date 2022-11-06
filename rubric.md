@@ -32,7 +32,7 @@ YES 1 pt: The `Library` class implements the requested additional methods (`cont
 
 YES 1 pt: The `Cafe` class includes the requested attributes
 
-YES 1 pt: The `Cafe` class keeps the inventory up to date, based on sales
+PART 1 pt: The `Cafe` class keeps the inventory up to date, based on sales
 
 YES 1 pt: The `Cafe` class uses the `restock(...)` method to avoid running out of inventory.
 
