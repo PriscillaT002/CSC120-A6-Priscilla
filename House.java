@@ -59,8 +59,9 @@ public class House extends Building {
   }
 
 
-  public static void main(String[] args) {
-    new House();
-  }
+
+ public static void main(String[] args) {
+  new House();
+}
 
 }

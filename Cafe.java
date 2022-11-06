@@ -40,16 +40,16 @@ public class Cafe extends Building{
             if  (cream == 0) {
                 nCreams += 50 ;}
 
-              }
+              } 
              
+}
+            
+        
+
+              public static void main(String[] args) {
+                new Cafe();
+              }
             
             }
+  
 
-
-    }
-    
-    public static void main(String[] args) {
-        new Cafe();
-    }
-    
-}
